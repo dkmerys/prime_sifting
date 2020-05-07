@@ -7,7 +7,6 @@ class Prime
     @number_array = number_array
     @no_primes_array = no_primes_array
     
-
   end
 
   def number_array
@@ -25,7 +24,7 @@ class Prime
   def no_5s
     @no_5s_array = no_3s.delete_if {|n| n % 5 == 0 && n > 5}
   end
-  
+
   def no_7s
     @no_7s_array = no_5s.delete_if {|n| n % 7 == 0 && n > 7}
   end

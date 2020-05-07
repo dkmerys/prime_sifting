@@ -22,4 +22,8 @@ describe ('Prime') do
     prime = Prime.new(25)
     expect(prime.no_7s).to(eq([2, 3, 5, 7, 11, 13, 17, 19, 23]))
   end
+  it("returns an array containing prime numbers between 1 and 100") do
+    prime = Prime.new(100)
+    expect(prime.no_7s).to(eq([2,3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]))
+  end
 end 

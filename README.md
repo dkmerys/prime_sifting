@@ -12,6 +12,7 @@ This a project for Epicodus, with the main goal being CSS styling techniques.
 
 |Behavior|Input|Output|
 | :-----|:-----|:-----|
+| Create an array of numbers 1-10 | 
 | Create a range to user number | Input:3  | Output: 2,3  |
 | Convert a range to an array |  Input: (1..4) | [1, 2, 3, 4]   |
 | Starting from 2, remove multiples of 2 | Input: 10 | Output: 2, 3, 5, 7|

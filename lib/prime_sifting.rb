@@ -12,6 +12,10 @@ class Prime
     # .map{ |n| Prime.prime?(n)}
   end
 
+  def remove_2s
+    number_range.reject { |r| r.even?}
+  end
+  
   def sieve_number
     @sieve_number = [1, 2, 3, 5, 7]
   end
